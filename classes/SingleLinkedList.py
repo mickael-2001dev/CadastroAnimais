@@ -79,9 +79,6 @@ class SinglyLinkedList:
             node = node.get_next_element()
             count+=1
 
-    #def verify_position(self, position):
-        #if position < self__size:
-
     def add_new_value(self, value, position):
         'Adicione um elemento em um lugar determinado da lista. Valor a ser inserido informado no parâmetro value. Posição informada no parâmetro position'
         if self.__size != 0 and self.__size <= position or position < 0:
