@@ -37,7 +37,3 @@ class Animal:
 
 
 
-#anim.listAnimal.print()
-#test = anim.listAnimal.get_all()
-#for i in range(len(test)):
-   # print(test[i].keys())
